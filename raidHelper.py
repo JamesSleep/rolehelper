@@ -101,4 +101,4 @@ async def on_raw_reaction_remove(payload):
             role_id = roles[i].id
             return await user.remove_roles(client.get_guild(guild_id).get_role(role_id), reason="역할제거")
 
-client.run('OTI3MDkwNzYxNzQzMzYwMDEw.YdFKjg.fwmo22kyMHGGF3Arj3w27bY7bRU')
+client.run('')
